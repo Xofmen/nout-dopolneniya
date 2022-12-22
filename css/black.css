@@ -1,0 +1,162 @@
+@import "font.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "apple";
+  transition: all 1s;
+  color: white;
+  transition: all 0.5s;
+}
+body{
+    background-color: black;
+}
+.container {
+  width: 1110px;
+  min-height: 10px;
+  margin: 70px auto;
+  /* border: 2px solid red; */
+}
+.header {
+  width: 100%;
+  min-height: 100vh;
+  /* border: 2px solid red; */
+}
+.box_txt {
+  max-width: 1008px;
+  width: 100%;
+  min-height: 50px;
+  /* border: 2px solid red; */
+  margin: 50px auto;
+}
+.header h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 48px;
+}
+.header_p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+.nout {
+  max-width: 680px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nout img {
+  width: 312px;
+  margin: auto;
+}
+.nout_txt {
+  /* border: 2px solid red; */
+  margin: auto;
+}
+.nout h2 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.nout h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #0071e3;
+  margin-bottom: 48px;
+}
+.nout p {
+  font-weight: 700;
+  font-size: 48px;
+}
+.btn {
+  width: max-content;
+  min-height: 10px;
+  margin: 0 auto;
+  /* border: 2px solid green; */
+}
+.myDIV{
+  width: 321px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  transition: 1s;
+  margin-bottom: 39px;
+}
+.botton {
+  width: 155px;
+  height: 50px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #006aff35;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.active {
+  background: #0071e3;
+}
+.btn_fotter {
+  width: 321px;
+  height: 57px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 102, 255, 0.265);
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+}
+.btn_p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+.btn_span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+.active2 {
+  border: 2px solid blue;
+}
+.togle_btn{
+  position: absolute;
+  top:10px;
+  right: 40%;
+}
+.toggle_button {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  margin: 0;
+  vertical-align: top;
+  background: #ffffff;
+  border: 1px solid #bbc1e1;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.toggle_button::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 3px;
+  top: 1.5px;
+  width: 45px;
+  height: 45px;
+  background-color: blue;
+  border-radius: 50%;
+  transform: translateX(100%);
+  transition: all 1s;
+}
+
